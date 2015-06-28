@@ -5,15 +5,6 @@
 #include <string>
 #include <vector>
 
-template <typename T>
-void printVec(std::vector<T> vec)
-{
-	for (auto it = vec.cbegin(); it != vec.end(); ++it) {
-		std::cout << *it << " ";
-	}
-	std::cout << std::endl;
-}
-
 int main()
 {
 	std::vector<std::string> v;
