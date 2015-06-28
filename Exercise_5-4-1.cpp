@@ -19,7 +19,7 @@ int main()
 	std::vector<std::string> v;
 	std::string s;
 
-	while (std::cin >> s && s != "end") {
+	while (std::cin >> s && s != "end") { //end while when 'end' is enterd
 		v.push_back(s);
 	}
 
@@ -55,3 +55,6 @@ int main()
 
 	return 0;
 }
+
+// Output for "how now now now brown cow cow":
+// The word 'now' had the most amount of repeats with 3 occurs!
