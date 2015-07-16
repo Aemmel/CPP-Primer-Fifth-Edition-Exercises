@@ -1,4 +1,4 @@
-// My solution for C++ Primer Fifth Edition, Exercise 6.2.3 from page 215
+// My solution for C++ Primer Fifth Edition, Exercise 6.7 from page 250
 //
 
 #include <iostream>
